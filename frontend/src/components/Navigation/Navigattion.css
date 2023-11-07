@@ -1,0 +1,43 @@
+/* Navigation.css */
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background: #333;
+    align-items: center;
+  }
+
+  li {
+    padding: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
+  a:hover,
+  a.active {
+    background-color: #555;
+  }
+
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e6131a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #4cae4c;
+  }
