@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchSpots } from '../../store/Spots';
 import { Link } from 'react-router-dom';
+import './spots.css'
 
 const Spots = () => {
   const dispatch = useDispatch();
